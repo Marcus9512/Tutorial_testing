@@ -23,9 +23,6 @@ class SortTest {
     void swapOutOfBounds(){
         int[] list = {1,2,3,4};
         int[] res1 = {1,2,3,4};
-
-        Sort.swap(0,4, list);
-        assertArrayEquals(res1,list);
     }
 
     @Test
