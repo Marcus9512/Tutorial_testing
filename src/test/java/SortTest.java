@@ -15,14 +15,26 @@ class SortTest {
     }
 
     @Test
-    void swapOutOfBounds(){
+    void swap() {
         int[] list = {1,2,3,4};
-        int[] res = {1,2,3,4};
+        int[] res1 = {4,2,3,1};
+        int[] res2 = {4,3,2,1};
+        int[] res3 = {4,1,2,3};
+
+        Sort.swap(0,3, list);
+        assertArrayEquals(res1,list);
+
+        Sort.swap(1,2, list);
+        assertArrayEquals(res2,list);
+
+        Sort.swap(1,3, list);
+        assertArrayEquals(res3,list);
     }
 
     @Test
-    void swap() {
-
+    void swapOutOfBounds(){
+        int[] list = {1,2,3,4};
+        int[] res = {1,2,3,4};
     }
 
     @Test
