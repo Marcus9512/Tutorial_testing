@@ -1,9 +1,4 @@
 import org.junit.jupiter.api.Test;
-
-import java.util.Arrays;
-import java.util.HashMap;
-import java.util.Set;
-
 import static org.junit.jupiter.api.Assertions.*;
 
 /**
@@ -22,7 +17,7 @@ class SortTest {
     @Test
     void swapOutOfBounds(){
         int[] list = {1,2,3,4};
-        int[] res1 = {1,2,3,4};
+        int[] res = {1,2,3,4};
     }
 
     @Test
