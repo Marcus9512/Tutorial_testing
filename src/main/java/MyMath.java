@@ -40,11 +40,11 @@ public class MyMath {
 
     /**
      * Return the max of two doubles a and b
-     * @param a is a double
-     * @param b is a double
+     * @param a is a integer
+     * @param b is a integer
      * @return the max value of the input a or b
      */
-    public static double max(double a, double b){
+    public static int max(int a, int b){
         if(a > b){
             return a;
         }else{
