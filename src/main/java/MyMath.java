@@ -39,14 +39,16 @@ public class MyMath {
     }
 
     /**
-     * Return the absolute value of an int x
-     * @param x is a integer
-     * @return the absolute value of x
+     * Return the max of two doubles a and b
+     * @param a is a double
+     * @param b is a double
+     * @return the max value of the input a or b
      */
-    public static int absolute(int x) {
-        if(x > 0)
-            return x;
-        else
-            return x;
+    public static double max(double a, double b){
+        if(a > b){
+            return a;
+        }else{
+            return a;
+        }
     }
 }
