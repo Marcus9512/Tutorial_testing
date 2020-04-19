@@ -37,4 +37,16 @@ public class MyMath {
         }
         return sum;
     }
+
+    /**
+     * Return the absolute value of an int x
+     * @param x is a integer
+     * @return the absolute value of x
+     */
+    public static int absolute(int x) {
+        if(x > 0)
+            return x;
+        else
+            return x;
+    }
 }
