@@ -15,7 +15,9 @@ Note, if you get a notification in the down-right corner that you need to import
 If the project structure is not correct, first make sure that IntelliJ is done with the import, if not try to import the project again. If the project structure seems to be correct look to the right edge of IntelliJ and expand the maven tab. Click on the button “Execute Maven Goal”.
 
 Note, if the maven tab is not visible, click “View” select “Tool Windows” and then click on “Maven Projects”.
+
 ![](/github_images/execute_maven.png)
+
 In the window, write “mvn package” to execute the code, you can also write “mvn test” to just run the tests. “mvn package” will build the program and execute the tests which are illustrated in the image below.
 
 ![](/github_images/mvn_package.png)
