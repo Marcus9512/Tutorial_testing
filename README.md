@@ -2,6 +2,8 @@
 This Github page provides code for "[Tutorial] An introduction to unit test, regression test and code coverage with IntelliJ".
 The instructions to this tutorial can be found [here](https://medium.com/@marcus.jonssonewerbring/tutorial-an-introduction-to-unit-test-regression-test-and-code-coverage-with-intellij-b08be1268719)
 
+This tutorial was created toghether with dieflo4711
+
 ## Setup
 
 When the project is cloned to your computer open IntelliJ, and select import project. Note, if you are using IntelliJ 2020, open and import will be on the same button.
