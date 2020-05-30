@@ -4,7 +4,7 @@ The instructions to this tutorial can be found [here](https://medium.com/@marcus
 
 ## Setup
 
-Open IntelliJ, and select the import project and select the Tutorial_testing project. Note, if you are using IntelliJ 2020, open and import will be on the same button.
+When the project is cloned to your computer open IntelliJ, and select import project. Note, if you are using IntelliJ 2020, open and import will be on the same button.
 
 In the next step, select “Maven project” and click next. Note, if you are using IntelliJ 2020, the project will open the project instantly. Use the standard values in the upcoming windows by just clicking next, until IntelliJ has open the project. Expand the project structure in the left corner of IntelliJ and make sure that it is similar to the next image.
 
@@ -27,10 +27,6 @@ The program should output the following:
 ![](/github_images/tests.png)
 
 ## Project structure
-The project used in this tutorial consists of two parts Tutorial_testing Tutorial_PBT. The reason why it’s 2 projects is that they are using dependencies that are not compatible with each other.
-
-Tutorial_testing is the main project which contains a small math class called MyMath, the class Sort, the class MusicDatabase and the class MusicServices. These classes were constructed as a template to make it easier to construct unit tests. The class SortTest is an incomplete test class where you should add some extra unit tests. MyMath, Sort, MusicDatabase and MusicServices are located in the src/main/java and SortTest is located in src/main/java.
-
-Tutorial_PBT is only used in the part property-based testing part of this tutorial. This project contains a copy of the Sort class and it’s test class SortTest. Sort is located in the src/main/java and SortTest is located in src/main/java.
+The project contains a small math class called MyMath, the class Sort, the class MusicDatabase and the class MusicServices. These classes were constructed as a template to make it easier to construct unit tests. The class SortTest is an incomplete test class where you should add some extra unit tests. MyMath, Sort, MusicDatabase and MusicServices are located in the src/main/java and SortTest is located in src/main/java.
 
 
